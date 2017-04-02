@@ -1,6 +1,6 @@
 # Insight_project
   Zhongyun (Julie) did this Insight Project when she was a Insight Health Data Science fellow at Boston in the spring of 2017. 
-  [Click to see the webapp for this project](havesomeguts.faith)
+  Webapp for this project: (havesomeguts.faith)
   
   The motivation of this project is to use patient's gut microbiome sequence data to predict one's risk of having colorectal cancer. All raw data is obtained from a publication reporting a French study on colorectal cancer. Please look at the Pop_F_paper folder to find the original publication and related supplementary data
   
