@@ -9,3 +9,7 @@
   This cancer risk prediction problem is treated as a classification. To find the best machine learning method to classify patients into "healthy" or "cancer, I actually tried the following classifiers: logistics regression, SVM, K-nearest neighbors and random forest. Random forest is eventually optimized in terms of hyperparameters and used to build the model since this is a great classifier to handle non-linearity in biology dataset. 
   Nested cross validation with 5-folds is performed on the dataset, and the method reached 80% accuracy with colorectal cancer prediction, with high sensitivity. 
   Final random forest model was pickled to make a webapp with flask hosted on AWS. 
+
+
+* Example visualization of microbiome abundancy
+![alt text](https://github.com/Zhongyun-Huang/Insight_project/blob/master/test.png)
