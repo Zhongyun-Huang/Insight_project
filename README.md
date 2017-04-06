@@ -20,10 +20,11 @@
   Nested cross validation with 5-folds is performed on the dataset, and the method reached 80% accuracy with colorectal cancer prediction, with high sensitivity. 
   Finally random forest model was pickled to make a webapp with flask hosted on AWS. 
 
-## ROC and test sensitivity
-
-
-
+## ROC and sensitivity of the test
+  For a cancer screening test, my aim is to minimize false negative rate. However, at the same time, the false positive rate cannot be too high, as it will lead to high medical costs afterwards, and also lead to unnecessary patient anxiety. 
+  *The ROC curve shows a great overall prediction of my model.
+  *The confusion matrix shows high sensitivity, high accuracy and acceptable precision 
+![alt text](https://github.com/Zhongyun-Huang/Insight_project/blob/master/confusion_matrix_ROC.png)
 
 ## Visualize the top 5 colorectal caner related microbe species
 * Example visualization of microbiome abundancy
