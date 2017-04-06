@@ -1,8 +1,9 @@
 # Insight_project
 
 ## Trust Your Gut: A Tool to Predict Patients’ Risk of Colorectal Cancer Based on Gut Microbe Sequencing
-  Zhongyun (Julie) did this Insight Project when she was a Insight Health Data Science fellow at Boston in the spring of 2017. 
+  *Zhongyun (Julie) did this Insight Project when she was a Insight Health Data Science fellow at Boston in the spring of 2017. 
   
+  *TrusYourGut allows users to upload gut microbiome sequence data from uBiome service, and then assess the risk of colorectal cancer. 
   [Webapp for this project](http://havesomeguts.faith/ "Trust Your Gut")
 
 ## Motivation
@@ -25,7 +26,6 @@
   *The ROC curve shows a great overall prediction of my model.
   *The confusion matrix shows high sensitivity, high accuracy and acceptable precision 
 ![alt text](https://github.com/Zhongyun-Huang/Insight_project/blob/master/confusion_matrix_ROC.png)
-
-## Visualize the top 5 colorectal caner related microbe species
-* Example visualization of microbiome abundancy
+## Visualize the top 5 colorectal cancer related microbe species
+  To give users a better sense of their gut microbiome status, I used violen plot to visualize the abundancies of the top 5 colorectal cancer species for all healthy samples in the training database. The blue dots highlighted on the plot show species abundancy of the particular user who updated file. 
 ![alt text](https://github.com/Zhongyun-Huang/Insight_project/blob/master/gut_app/static/image/cancer.csv.png)
