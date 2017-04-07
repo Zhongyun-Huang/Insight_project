@@ -12,7 +12,8 @@
   All raw data is obtained from a publication reporting a French study on colorectal cancer. Please look at the Pop_F_paper folder to find the original publication and related supplementary data
 
 ## Data source and feature engineering
-  The input file includes the relative abundancy of the most important gut microbime species highly correlated to colorectal cancer found in each patient (see train_valid.csv). For the 27 species included in the file, 10 are reported in publications to be colorectal cancer related, and 17 are the most abundance species in human guts. 
+  The original data source has the relative aundancy of 1754 gut bacteria species, for 53 colorectal caner patients and 88 control cases. 
+  I borrowed biological knowlege to do feature selection, by including the 17 most abundant species on average, and 10 species reported to be colorectal cancer associated by pulications(see train_valid.csv). 
   
 ## Classification
   This cancer risk prediction problem is treated as a classification. To find the best machine learning method to classify patients into "healthy" or "cancer, I actually tried the following classifiers: logistics regression, SVM, K-nearest neighbors and random forest. Random forest is eventually optimized in terms of hyperparameters and used to build the model since this is a great classifier to handle non-linearity in biology dataset. 
